@@ -1,13 +1,8 @@
-api = "0.4"
+api = "0.7"
 
 [buildpack]
 id = "portersupport/heroku-buildpack-wkhtmltopdf-1"
 version = "0.1"
-name = "wkhtmltopdf"
-homepage = "https://github.com/portersupport/heroku-buildpack-wkhtmltopdf-1"
-
-[[buildpack.licenses]]
-type = "MIT"
 
 [[stacks]]
 id = "heroku-18"
